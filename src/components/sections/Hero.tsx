@@ -70,7 +70,7 @@ export default function Hero() {
               <a href="https://github.com/Dannyso05">
                 <img src={themeIcons[resolvedTheme].github}  alt="GithubIcon" />
               </a>
-              <a href="https://drive.google.com/file/d/12dCDRxsJig30LLLx-H_bUUkj7-GOwTSK/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1RmNOHAVCvf6Oy-IJt_FfhAfHCbUID_7N/view?usp=sharing">
                 <img src={themeIcons[resolvedTheme].cv}  alt="ResumeIcon" />
               </a>
           {/* <a

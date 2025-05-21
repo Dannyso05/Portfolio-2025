@@ -100,7 +100,7 @@ export default function About() {
               {/* Resume button outside the image */}
               <Button
                 className="flex items-center gap-2 shadow-md hover:shadow-lg transition-all duration-300 transform hover:translate-y-[-2px]"
-                onClick={() => window.open("https://drive.google.com/file/d/12dCDRxsJig30LLLx-H_bUUkj7-GOwTSK/view?usp=sharing", "_blank")}
+                onClick={() => window.open("https://drive.google.com/file/d/1RmNOHAVCvf6Oy-IJt_FfhAfHCbUID_7N/view?usp=sharing", "_blank")}
               >
                 <Download className="h-4 w-4" />
                 Download Resume              
