@@ -17,7 +17,7 @@ const experiences = [
     role: "Machine Learning Engineer",
     period: "2025 May - 2025 August",
     description:"Developing ViViT for Body Language Detection.",
-    logo: "assets/wat_ai_logo.jpeg",
+    logo: "src/assets/wat_ai_logo.jpeg",
   },
   {
     company: "Environment and Climate Change Canada",
