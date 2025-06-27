@@ -71,7 +71,7 @@ export default function About() {
         >
           <motion.div variants={itemVariants} className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
-          </motion.div>
+          </motion.div> 
 
           {/* Profile and Bio - Side by Side */}
           <motion.div variants={itemVariants} className="grid md:grid-cols-2 gap-12 items-center">
