@@ -18,7 +18,7 @@ const projects: Project[] = [
   {
     title: 'Presence',
     description: 'AI-powered soft-skill screening.',
-    image: 'assets/Presence.png',
+    image: 'assets/Presence.jpeg',
     github: 'https://github.com/EricJujianZou/Spurhacks2025',
     demo: 'https://devpost.com/software/articula',
     tags: ['FastaAPI', 'React', 'Gemini 2.5']
