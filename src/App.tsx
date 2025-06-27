@@ -7,7 +7,7 @@ import Hero from "./components/sections/Hero"
 import About from "./components/sections/About"
 import Experience from "./components/sections/Experience"
 import Projects from "./components/sections/Projects"
-import Skills from "./components/sections/Skills"
+// import Skills from "./components/sections/Skills"
 import Contact from "./components/sections/Contact"
 import CustomCursor from "./components/CustomCursor"
 import ParticleBackground from "./components/ParticleBackground"
@@ -32,7 +32,7 @@ function App() {
         <Hero />
         <About />
         <Experience />
-        <Skills />
+        {/* <Skills /> */}
         <Projects />
         <Contact />
       </div>

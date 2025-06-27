@@ -14,7 +14,17 @@ interface Project {
   tags: string[]
 }
 
-const projects: Project[] = []
+const projects: Project[] = [
+  {
+    title: 'Presence',
+    description: 'AI-powered soft-skill screening.',
+    image: 'src/assets/Presence.png',
+    github: 'https://github.com/EricJujianZou/Spurhacks2025',
+    demo: 'https://devpost.com/software/articula',
+    tags: ['FastaAPI', 'React', 'Gemini 2.5']
+  }
+
+]
 
 export default function Projects() {
   const ref = useRef(null)
@@ -41,7 +51,7 @@ export default function Projects() {
   }
 
   return (
-    <section id="projects" className="py-20 px-4 md:px-6 pt-32">
+    <section id="projects" className="py-20 px-4 md:px-6 pt-32 bg-muted/30 ">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

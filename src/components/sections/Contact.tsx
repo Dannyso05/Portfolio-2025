@@ -87,8 +87,9 @@ export default function Contact() {
   )
 
   // ─────────────────────────── JSX
+  // bg-muted/30 
   return (
-    <section id="contact" className="py-20 px-4 md:px-6 bg-muted/30 pt-32">
+    <section id="contact" className="py-20 px-4 md:px-6 pt-32">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <motion.div

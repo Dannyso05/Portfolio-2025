@@ -4,12 +4,27 @@ import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
 
 const experiences = [
+  // {
+  //   company: "8090 Solutions Inc",
+  //   role: "Software Engineering Intern",
+  //   period: "2025 September - 2024 December",
+  //   description:
+  //     "Collaborated with 3 metrological scientists to improve air quality forecast models and streamline forecasting verification process.",
+  //   logo: "assets/environment_canada_logo.jpeg",
+  // },
+  {
+    company: "Wat.ai",
+    role: "Machine Learning Engineer",
+    period: "2025 May - 2025 August",
+    description:"Developing ViViT for Body Language Detection.",
+    logo: "src/assets/wat_ai_logo.jpeg",
+  },
   {
     company: "Environment and Climate Change Canada",
     role: "Data Science Intern",
     period: "2025 January - 2024 April",
     description:
-      "Collaborated with 3 metrological scientists to improve air quality forecast models and streamline forecasting verification process.",
+      "Optimizing Air Quality Health Index forecasting verification process.",
     logo: "assets/environment_canada_logo.jpeg",
   },
   {
@@ -17,7 +32,7 @@ const experiences = [
     role: "AI Software Engineer (Contract Part time)",
     period: "2024 September - 2024 December",
     description:
-      "Lead the deployment of scalable AI/ML model training pipelines, enhancing efficiency and optimizing end-to-end workflows.",
+      "AI/ML model training pipelines, enhancing efficiency and optimizing end-to-end workflows.",
     logo: "assets/remitbee_logo.jpeg",
   },
   {
@@ -25,7 +40,7 @@ const experiences = [
     role: "AI Software Engineer Intern",
     period: "2024 June - 2024 September",
     description:
-      "Developed AI/ML solutions, including an AI-powered customer service chatbot, a fraudulent transaction detection system, and a predictive model for customer churn mitigation.",
+      "Developing AI agent customer service chatbot, and a fraudulent transaction detection system.",
     logo: "assets/remitbee_logo.jpeg",
     },
   {
@@ -33,9 +48,16 @@ const experiences = [
     role: "Data Engineer",
     period: "2024 January - 2024 June",
     description:
-      "Implemented data pipelines to aggregate and process Alberta government bill data, ensuring high accessibility for analytical purposes.",    
+      "ETL pipeline for Alberta Bill Govenment.",    
     logo: "assets/countable_io_logo.jpeg",
     },
+    // {
+    //   company: "Watonomous",
+    //   role: "Machine Learning Researcher",
+    //   period: "2024 January - 2024 April",
+    //   description:'Working on Autonomous Vehicle' ,
+    //   logo: "src/assets/watonomous_logo.jpeg",
+    //   },
 ]
 
 export default function Experience() {
