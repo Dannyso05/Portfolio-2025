@@ -92,7 +92,8 @@ export default function Projects() {
                   <img
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 ease-in-out"
+                    // className="w-full h-full object-cover transition-transform duration-500 ease-in-out"
+                    className="absolute inset-0 w-full h-full object-contain object-center transition-transform duration-500 ease-in-out"
                     style={{
                       transform:
                         hoveredIndex === index ? "scale(1.05)" : "scale(1)",
