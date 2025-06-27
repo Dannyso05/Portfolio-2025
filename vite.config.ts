@@ -22,6 +22,14 @@ export default defineConfig({
       {
         src: 'src/assets/1703795023034.jpeg',
         dest: 'assets'
+      },
+      {
+        src: 'src/assets/wat_ai.jpeg',
+        dest: 'assets'
+      },
+      {
+        src: 'src/assets/Presence.jpg',
+        dest: 'assets'
       }
     ]
   })],
