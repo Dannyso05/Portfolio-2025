@@ -28,7 +28,7 @@ export default defineConfig({
         dest: 'assets'
       },
       {
-        src: 'src/assets/Presence.jpg',
+        src: 'src/assets/Presence.jpeg',
         dest: 'assets'
       }
     ]
