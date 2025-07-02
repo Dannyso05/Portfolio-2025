@@ -93,7 +93,8 @@ export default function Projects() {
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
                     // className="w-full h-full object-cover transition-transform duration-500 ease-in-out"
-                    className="absolute inset-0 w-full h-full object-contain object-center transition-transform duration-500 ease-in-out"
+                    // className="absolute inset-0 w-full h-full object-contain object-center transition-transform duration-500 ease-in-out"
+                    className="absolute inset-0 w-full h-full object-scale-down object-center transition-transform duration-500 ease-in-out"
                     style={{
                       transform:
                         hoveredIndex === index ? "scale(1.05)" : "scale(1)",
@@ -148,7 +149,7 @@ export default function Projects() {
         {projects.length > 0 && (
           <motion.div variants={itemVariants} className="mt-12 text-center">
             <a
-              href="https://github.com"
+              href="https://github.com/Dannyso05"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-colors transform hover:scale-105"

@@ -16,7 +16,7 @@ const experiences = [
     company: "Wat.ai",
     role: "Machine Learning Engineer",
     period: "2025 May - 2025 August",
-    description:"Developing ViViT for Body Language Detection.",
+    description:"Working with ViViT to Detect Body Languages.",
     logo: "assets/wat_ai.jpeg",
   },
   {
